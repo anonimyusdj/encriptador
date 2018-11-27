@@ -34,14 +34,14 @@
 function descifrar(){
   //  $cadena=array();
     $cadena=separarPalabras($_REQUEST['palabra']);
-    $alfabeto=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',' '];
-    $producciones=['@#','~€¬','1/8','&%','%+5','po','Ew54','?5¿','^ç','78','Tgh','$@@','AxcA','·-:','R_-d','%tYH','UI','PlJ','[;}','{nX}','XxX','=?','&/u','VBm','Io=','Rj45','sp'];
+    $producciones=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',' '];
+    $alfabeto=['@#','~€¬','1/8','&%','%+5','po','Ew54','?5¿','^ç','78','Tgh','$@@','AxcA','·-:','R_-d','%tYH','UI','PlJ','[;}','{nX}','XxX','=?','&/u','VBm','Io=','Rj45','sp'];
     $resultado="";
 
    for($i=0;$i < count($cadena);$i++){
-      for($j=0;$j < count($producciones);$j++){
-        if($cadena[$i]==$producciones[$j]){
-          $resultado.=$alfabeto[$j];
+      for($j=0;$j < count($alfabeto);$j++){
+        if($cadena[$i]==$alfabeto[$j]){
+          $resultado.=$producciones[$j];
           //echo $alfabeto[$j];
         }
       }
