@@ -16,7 +16,7 @@
   <body>
     <div class="row" ng-controller="encriptar">
       <header class="center">
-        <h3>Cifrado con Producciones</h3><hr>
+        <h3>Cifrado por Sustitucion</h3><hr>
       </header>
       <div class="col s12 m1"></div>
         <div class="col s12 m5 card">
