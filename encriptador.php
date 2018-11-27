@@ -38,10 +38,11 @@ function descifrar(){
     $producciones=['@#','~€¬','1/8','&%','%+5','po','Ew54','?5¿','^ç','78','Tgh','$@@','AxcA','·-:','R_-d','%tYH','UI','PlJ','[;}','{nX}','XxX','=?','&/u','VBm','Io=','Rj45','sp'];
     $resultado="";
 
-    for($i=0;$i < strlen($cadena);$i++){
-      for($j=0;$j < count($alfabeto);$j++){
-        if($cadena[$i]==$alfabeto[$j]){
-          $resultado.=$producciones[$j];
+   for($i=0;$i < count($cadena);$i++){
+      for($j=0;$j < count($producciones);$j++){
+        if($cadena[$i]==$producciones[$j]){
+          $resultado.=$alfabeto[$j];
+          //echo $alfabeto[$j];
         }
       }
     }
