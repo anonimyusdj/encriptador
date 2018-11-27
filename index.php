@@ -50,7 +50,7 @@
             <h4>Resultado</h4>
             <h5>{{resultado2}}</h5>
           </div>
-          <div class="col s12 m12 center red-text"><h5><b>Por el momento solo se permiten letras</b></h5></div>
+          <div class="col s12 m12 center red-text"><h5><b>Por el momento solo se permiten letras, no se reconocen letras tildades, y no se distingue entre mayusculas y minusculas</b></h5></div>
     </div>
     <script src="js/angular.min.js" charset="utf-8"></script>
     <script src="js/materialize.min.js" charset="utf-8"></script>
