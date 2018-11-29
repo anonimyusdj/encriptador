@@ -1,2 +1,2 @@
-#encriptador
-## cifrado metodo granatica
+# Encriptador
+## cifrado metodo gramatica
