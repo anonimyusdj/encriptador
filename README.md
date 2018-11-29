@@ -1,2 +1,2 @@
-# encriptador
-cifrado metodo cesar
+#encriptador
+## cifrado metodo granatica
